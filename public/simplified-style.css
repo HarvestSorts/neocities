@@ -148,7 +148,7 @@ main {
 #icon {margin:auto;}
 #icon img {
   /*this makes it a circle, lower the number for a rounded square*/
-  border-radius:10%;
+  border-radius:20%;
   max-width:200px;
 }
 /*these styles are for when your icon image is being used as a link, it just makes it react on mouseover*/
