@@ -11,7 +11,7 @@
   --button-bg: #48584E; /* this handles the outer status backdrop and button color */
   --border-color: #425047; /* this handles the sidebar color */
   --accent-color: #A7C080; /* this handles the handle color and stuff */
-  --border-shadow: #D3C6AA; /* border drop shadow on posts. this is self explanitory. */
+  --border-shadow: #A7C080; /* border drop shadow on posts. this is self explanitory. */
   
   /* nami: these next two colors are for when you highlight text on the page
      dj: yeah this looks fine, it stays
