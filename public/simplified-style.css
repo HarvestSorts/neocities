@@ -352,7 +352,6 @@ also no starting with numbers, but maybe don't use numbers anyway */
 .tagged:has(#all:checked) article,
 .tagged:has(#rant:checked) article[class~="rant"],
 .tagged:has(#rant:checked) article[class~="ic"],
-.tagged:has(#vent:checked) article[class~="vent"],
 .tagged:has(#updates:checked) article[class~="updates"],
 .tagged:has(#demos:checked) article[class~="demos"],
 .tagged:has(#yap:checked) article[class~="yap"],
