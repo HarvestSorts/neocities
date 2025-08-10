@@ -12,6 +12,7 @@
   --border-color: #425047; /* this handles the sidebar color */
   --accent-color: #A7C080; /* this handles the handle color and stuff */
   --border-shadow: #A7C080; /* border drop shadow on posts. this is self explanitory. */
+  --realborders: #D3C6AA; /* personal edit by me. this var controls border colors independant of the sidebar
   
   /* nami: these next two colors are for when you highlight text on the page
      dj: yeah this looks fine, it stays
@@ -220,7 +221,7 @@ main {
   padding: .5em;
   border-radius: 1em;
   margin: 1em 0;
-  border: 2px solid var(--border-color);
+  border: 2px solid var(--realborders);
   outline: 2px solid var(--post-bg);
   box-shadow: 2px 2px 6px var(--border-shadow);
 }
@@ -229,7 +230,7 @@ main {
   color: var(--post-text);
   font-size: 1.5em;
   font-weight: bold;
-  border-bottom: 2px dashed var(--border-color);
+  border-bottom: 2px dashed var(--realborders);
   margin: .5em;
 }
 /*since the summary uses the special font, switch back to the other one for the timestamp*/
@@ -328,7 +329,7 @@ main {
 }
 
 .tags {
-  border-top: 2px dashed var(--border-color);
+  border-top: 2px dashed var(--realborders);
   padding: .4em 0;
 }
 .tags a {color: var(--post-text);}
