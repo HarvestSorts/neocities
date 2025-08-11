@@ -10,7 +10,7 @@
   --post-text: #FFFFFF; /* post text color. */
   --button-bg: #48584E; /* this handles the outer status backdrop and button color */
   --border-color: #425047; /* this handles the sidebar color */
-  --accent-color: #908e99; /* this handles the handle color and stuff */
+  --accent-color: #FFFFFF; /* this handles the handle color and stuff */
   --border-shadow: #A7C080; /* border drop shadow on posts. this is self explanitory. */
   --realborders: #D3C6AA; /* personal edit by me. this var controls border colors independant of the sidebar
   
