@@ -139,7 +139,7 @@ main {
 }
 /*font size for your name in the sidebar*/
 #sidebar h1 a {
-  font-size: 1.1em;
+  font-size: 0.9em;
 }
 /*no underline for your name, or hovered links in sidebar*/
 #sidebar h1 a,
