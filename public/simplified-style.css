@@ -1,5 +1,20 @@
-/* these are the site colors, replace them with anything you want!
- * this version is simplified for easier color swapping!*/
+/* style tooltips */
+.tooltip {
+        background: #2d2d2e; /* use different stylizing because this isn't wintr's site */
+        color: #fcfcff; /* use different stylizing because this isn't wintr's site */
+        /* rest is specified as per wintr's documentation and should NOT be changed */
+        position: fixed;
+        padding: 6px 10px;
+        border-radius: 6px;
+        font-size: 14px;
+        white-space: nowrap;
+        pointer-events: none;
+        opacity: 0;
+        transition: opacity 0.15s ease;
+        z-index: 10;
+}
+
+/* color guide by nami */
 :root {
 
   /* if we have a url for the bg we'd use this: --site-bg: url("images/startile.png"); */
@@ -465,20 +480,4 @@ footer {
     width:100%;
     opacity:100%;
   }
-}
-
-/* style tooltips */
-.tooltip {
-        background: #2d2d2e; /* use different stylizing because this isn't wintr's site */
-        color: #fcfcff; /* use different stylizing because this isn't wintr's site */
-        /* rest is specified as per wintr's documentation and should NOT be changed */
-        position: fixed;
-        padding: 6px 10px;
-        border-radius: 6px;
-        font-size: 14px;
-        white-space: nowrap;
-        pointer-events: none;
-        opacity: 0;
-        transition: opacity 0.15s ease;
-        z-index: 10;
 }
