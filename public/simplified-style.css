@@ -466,3 +466,19 @@ footer {
     opacity:100%;
   }
 }
+
+/* style tooltips */
+.tooltip {
+        background: #2d2d2e; /* use different stylizing because this isn't wintr's site */
+        color: #fcfcff; /* use different stylizing because this isn't wintr's site */
+        /* rest is specified as per wintr's documentation and should NOT be changed */
+        position: fixed;
+        padding: 6px 10px;
+        border-radius: 6px;
+        font-size: 14px;
+        white-space: nowrap;
+        pointer-events: none;
+        opacity: 0;
+        transition: opacity 0.15s ease;
+        z-index: 10;
+}
