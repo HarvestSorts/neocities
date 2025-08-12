@@ -1,4 +1,4 @@
-const tooltip = document.getElementById("tooltip");
+      const tooltip = document.getElementById("tooltip");
       const images = document.querySelectorAll("[data-tooltip]");
 
       images.forEach((image) => {
