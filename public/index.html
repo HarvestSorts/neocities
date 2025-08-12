@@ -7,6 +7,7 @@
     <meta name="description" content="A place to post some tweets, instead of on Twitter. More uses soon.">
     <link rel="icon" href="https://file.garden/Z00UfPFOQVsOSq0m/yth75u.gif">
     <link href="./simplified-style.css" rel="stylesheet" type="text/css" media="all">
+    <script src="./tooltips.js" type="text/javascript" defer></script>
   </head>
   <body>
 
@@ -443,26 +444,4 @@
     </footer>      
     </div>
   </body>
-<!-- image hover script by wintrmoon -->
-<script>
-      // NOTE - this is why it works
-      const tooltip = document.getElementById("tooltip");
-      const images = document.querySelectorAll("[data-tooltip]");
-
-      images.forEach((image) => {
-        image.addEventListener("mouseenter", () => {
-          tooltip.textContent = image.getAttribute("data-tooltip");
-          tooltip.classList.add("visible");
-        });
-
-        image.addEventListener("mouseleave", () => {
-          tooltip.classList.remove("visible");
-        });
-
-        image.addEventListener("mousemove", (e) => {
-          tooltip.style.left = e.clientX + 15 + "px";
-          tooltip.style.top = e.clientY + 15 + "px";
-        });
-      });
-</script>
 </html>
