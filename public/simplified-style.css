@@ -314,7 +314,7 @@ main {
   color: #A7C080;
   font-weight: bold;
   padding: .5rem 0;
-  border-bottom: 2px dashed var(--border-color);
+  border-bottom: 2px dashed #D3C6AA;
 }
 /*and the post's timestamp*/
 .post time {
