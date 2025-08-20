@@ -4,9 +4,9 @@
   font-size: 2em;
 }
 
-em {
-  font-style: normal;
-}
+
+em { font-style: normal; } /* don't weird out em elements */
+handle { color: #8cad95; } /* color handles diff from the display */
 
 /* style tooltips */
 .tooltip.visible { opacity: 1; } /* make tooltips appear only when hovered, i think */
