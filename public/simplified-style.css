@@ -4,6 +4,10 @@
   font-size: 2em;
 }
 
+em {
+  font-style: normal;
+}
+
 /* style tooltips */
 .tooltip.visible { opacity: 1; } /* make tooltips appear only when hovered, i think */
 .tooltip {
@@ -308,7 +312,7 @@ main {
 
 /*the top of the post where you put your username*/
 .post-header {
-  color: var(--accent-color);
+  color: #A7C080;
   font-weight: bold;
   padding: .5rem 0;
   border-bottom: 2px dashed var(--border-color);
