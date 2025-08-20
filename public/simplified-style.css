@@ -1,3 +1,9 @@
+/* mozilla shut the fuck up */
+:where(h1) {
+  margin-block: 0.67em;
+  font-size: 2em;
+}
+
 /* style tooltips */
 .tooltip.visible { opacity: 1; } /* make tooltips appear only when hovered, i think */
 .tooltip {
