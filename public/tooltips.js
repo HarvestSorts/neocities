@@ -11,7 +11,7 @@
         // print to console on page load
         window.addEventListener('load', function() {
         console.log('Loaded wintrmoon\'s tooltips. This message is brought to you by April Rivenend');
-        console.warn('Load this script as async (<script src="file.js" async>) or else it will not load externally');
+        console.warn('Load this script as async (<script src="file.js" async>) to load it from an external file. This restriction is not required if you are loading the script in-line!');
       });
 
         image.addEventListener("mouseleave", () => {
