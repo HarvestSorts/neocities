@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>April's Fall Harvest</title>
+    <meta name="description" content="A place to post some tweets, instead of on Twitter. More uses soon.">
+    <link rel="icon" href="https://file.garden/Z00UfPFOQVsOSq0m/yth75u.gif">
+    <link href="./simplified-style.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body>
+    <div id="tooltip" class="tooltip"></div> <!-- it needs to be loaded above everything else, or chaos ensue. -->
+    <div id="container">
+
+    <aside id="sidebar">
+        <div class="flex">
+            
+            <div id="icon">
+                <a href="./"> <!-- i'll have to remember this hack -->
+                    <img src="https://file.garden/Z00UfPFOQVsOSq0m/a3cc2a7ccb190ff2b63eae57b9a43f6a.jpg" alt="icon" width="130" height="130">
+                </a>
+                <center><a href="https://www.imood.com/users/aprilriv" data-tooltip="click to view more info, as well as my profile!"><img src="https://moods.imood.com/display/uname-aprilriv/fg-FFFFFF/trans-1/imood.gif" alt="The current mood of aprilriv at www.imood.com" border="0"></a></center>
+            </div>
+            
+            <section id="profile">
+                <h1>
+                    <center><a href="./">April</a></center>
+                </h1>
+                <p>Queer blogger and writer</p>
+                
+                <div id="bio">
+                    <p>pronouns: they/any</p>
+                    <p>origin: canada</p>
+                    <p>age: 19</p>
+                </div>
+                <p>also a gamer and storywriter, completely self-taught!</p>
+            </section>
+        </div>
+        <nav><ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="https://aprilhvs.bearblog.dev" data-tooltip="offsite long form blog">Blog</a></li>
+            <li><a href="https://spacehey.com/aprilhvs" data-tooltip="come say hi! also has blog mirrors">SpaceHey</a></li>
+            <li><a href="https://github.com/HarvestSorts/neocities" data-tooltip="full source code for all this!">Source</a></li>
+            <li><a href="./indexv1.html" data-tooltip="posts from before I added UNIX timestamps. because i'm lazy.">Archive</a></li>
+        </ul></nav>
+        <section id="stamps" class="center pc-only">
+            <a target="_blank" href="https://aprilhvs.neocities.org"><img src="https://aprilhvs.neocities.org/buttonidea1.png" alt="April Rivenend's Website (featuring Treat by NomNomNami)"></a>
+            <textarea><a target="_blank" href="https://aprilhvs.neocities.org"><img src="https://aprilhvs.neocities.org/buttonidea1.png" alt="April Rivenend's Website (featuring Treat by NomNomNami)"></a></textarea>
+        </section>
+        <br>
+        <section id="stamps" class="center pc-only">
+            <a target="_blank" href="https://neocities.org/"><img src="img/neocities.gif" alt="site button"></a>
+            <a target="_blank" href="https://nomnomnami.com/"><img src="img/nami.gif" alt="nomnomnami"></a>
+            <a target="_blank" href="https://wintr.neocities.org"><img src="img/wintr.gif"></a>
+            <a href="https://ivyswell-tavern.neocities.org/"><img src="https://ivyswell-tavern.neocities.org/assets/button.png" alt="Ivyswell Tavern"></a> 
+        </section>
+    </aside>
+    <main class="tagged">
+        <section id="status" class="pinned">
+            <details>
+                <summary>status <time>august 13th 2025</time></summary>
+                <ul>
+                    <li>working on:</li>
+                    <li>my album! i'm a little behind...</li>
+                    
+                    <li>playing:</li>
+                    <li>minecraft, like still just minecraft</li>
+
+                    <li>obsession:</li>
+                    <li>making the most of my victory lap</li>
+
+                    <li>listening/watching:</li>
+                    <li>idk, more pink floyd</li>
+                </ul>
+            </details>
+        </section>
+        <section id="tag-filters" class="pinned">
+            <details open>
+                <summary>tag filters</summary>
+                <label data-tooltip="show every post regardless of tags. this is the default"><input type="radio" id="all" name="tag" checked>view all</label>
+                <label data-tooltip="the kinds of things i'd post if i was still on twitter"><input type="radio" id="yap" name="tag">#yap</label>
+                <label data-tooltip="announcements and general updates"><input type="radio" id="updates" name="tag">#updates</label>
+                <label data-tooltip="show only posts with audio"><input type="radio" id="demos" name="tag">#demos</label>
+                <label data-tooltip="show rants. may have heavy content"><input type="radio" id="rant" name="tag">#rant</label>
+                <label data-tooltip="posts related to roblox rendering."><input type="radio" id="art" name="tag">#art</label>
+                <label data-tooltip="filler posts written by my ocs. mainly for comedic value, might not make sense just on its own"><input type="radio" id="ic" name="tag">#ic</label>
+            </details>
+        </section>
+
+        <!-- all valid tags
+        <a href="#updates">#updates</a>
+        <a href="#yap">#yap</a>
+        <a href="#rant">#rant</a>
+        <a href="#art">#art</a>
+        <a href="#demos">#demos</a>
+        <a href="#ic">#ic</a>
+
+        and non-clickable tags that are recurring:
+        <span>#gaming</span>
+        <span>#modder life hacks</span>
+        <span>#silly</span>
+        <span>#minecraft</span>
+        <span>#lonely wolf treat obsession</span>
+        <span>#site dev</span>
+        <span>#humor</span>
+        <span>#vent</span>
+        <span>#blog</span>
+        <span>#irl</span>
+        <span>#thc</span>
+        -->
+
+        <article class="post yap">
+            <div class="post-header">April Rivenend <handle>(@aprilriven)</handle> <time class="post-time" datetime="1755791945"></time></div>
+            <p>can we get a cinematic mix of cops shot the kid with gunshots</p>
+            <section class="tags">
+                <a href="#yap">#yap</a><span>#music</span>
+        </article>
+
+        <article class="post yap">
+            <div class="post-header">April Rivenend <handle>(@aprilriven)</handle> <time class="post-time" datetime="1755787847"></time></div>
+            <p>as an extension to something i wrote a long while ago... i've been making a list of taboo commands often used by sketchy servers. stuff like /baltop, /bal, /ah, etc. i want to see what works and what doesn't. i like testing permissions <i>not</i> because i'm looking for an entry point, but because i just want to get an idea of how every server owner handles their shit</p>
+            <p>plus it's really fun to get an idea of what their standards are. do they trust the users with nothing? is there any permissions set at all? do i have permission to use basic commands that i consider helpful? do they have a no-trust with users?</p>
+            <p>please don't ban me for this i like poking around innocently with my 12 foot stick</p>
+            <section class="tags">
+                <a href="#yap">#yap</a><span>#minecraft</span><span>#gaming</span>
+        </article>
+
+        <article class="post yap">
+            <div class="post-header">April Rivenend <handle>(@aprilriven)</handle> <time class="post-time" datetime="1755744060"></time></div>
+            <p>i need a homepage so much.... but im not creative AHHHH</p>
+            <section class="tags">
+                <a href="#yap">#yap</a><span>#tech</span><span>#site dev</span>
+        </article>
+
+        <article class="post yap">
+            <div class="post-header">April Rivenend <handle>(@aprilriven)</handle> <time class="post-time" datetime="1755724921"></time></div>
+            <p>OH MY GOD WE'RE GETTING SYRUP 1 & 2 ON STEAM RIGHT NOW?? IM DROOLING ASFHASUFHASUHFAFS</p>
+            <p>and also nami please release the cool pixelated asks pics for free, i'd kill to use one of those...</p>
+            <section class="tags">
+                <a href="#yap">#yap</a><span>#gaming</span><span>#lonely wolf treat obsession</span><span>#PLEASEEEE</span>
+        </article>
+
+        <article class="post yap">
+            <div class="post-header">April Rivenend <handle>(@aprilriven)</handle> <time class="post-time" datetime="1755724921"></time></div>
+            <p>now i have a cool new party trick when i get famous and have some stories to tell. I WAS DESTINED TO BE A BLOGGER AND WRITER.</p>
+            <p>i can just turn around and say "did you know my mother published two books online that never went anywhere?"</p>
+            <section class="tags">
+                <a href="#yap">#yap</a><span>#irl</span>
+        </article>
+
+        <article class="post yap">
+            <div class="post-header">April Rivenend <handle>(@aprilriven)</handle> <time class="post-time" datetime="1755718548"></time></div>
+            <p>new haircut!!! instead of just long ass curly hair i don't like, i might get to have a cool ass swoop. masc cut, but who cares, i don't care about my presenting anymore atp</p>
+            <section class="tags">
+                <a href="#yap">#yap</a><span>#irl</span>
+        </article>
+
+        <article class="post yap">
+            <div class="post-header">April Rivenend <handle>(@aprilriven)</handle> <time class="post-time" datetime="1755706270"></time></div>
+            <p>"unix systems should migrate to 64 bit systems to buy the time a 'bit' more time"</p>
+            <p>my brother in christ it'll be at least 10x the heat death of the universe when counting forwards, i think a 'bit' is an understatement</p>
+            <section class="tags">
+                <a href="#yap">#yap</a><span>#tech</span>
+        </article>
+
+        <article class="post yap">
+            <div class="post-header">April Rivenend <handle>(@aprilriven)</handle> <time class="post-time" datetime="1755650925"></time></div>
+            <p>i added a cool thing a friend made but im so fucking lazy to adding it to all the posts... so instead i just cleared my post history.</p>
+            <p>god please crown me. somebody else can PR the old posts back in i dont care</p>
+            <section class="tags">
+                <a href="#yap">#yap</a>
+        </article>
+
+        <article class="post yap">
+            <div class="post-header">April Rivenend <handle>(@aprilriven)</handle> <time class="post-time" datetime="1755614760"></time></div>
+            <p>antibirth is genuinely like the best soundtrack i've ever heard for a fangame, let alone for something based on The Binding Of Isaac. danny has his style, but most video game soundtracks (like the original TOBI) don't make me want to go out of my way to listen and loop the songs on it, and TBOI was no exception to that.</p>
+            <p>BUT THEN MUDETH COMES IN LIKE "hey, fuck you, i'm an alternative metal artist and i want to hook you on this music" and my gullible ass says "that's fine with me!!! give me Descent (Title) pleaseeeee</p>
+            <p>oh hey, i posted in the morning!!! yay!!!</p>
+            <section class="tags">
+                <a href="#yap">#yap</a><span>#music</span><span>#gaming</span><span>#im so in love with antibirth</span>
+        </article>
+
+        <article class="post yap">
+            <div class="post-header">April Rivenend <handle>(@aprilriven)</handle> <time class="post-time" datetime="1755471660"></time></div>
+            <p>me sitting there as wintr yap post about their worrying about their job career and social life (social issues especially being my own struggle <small>hii!! i see you snooping, i'm calling you out, yeah that's right, i'm calling you out for nothing you did wrong! by the way you say too many stupid things and if you ever start worrying about saying stupid shit, i'm going to take a pallet to your home but then hit you over the head with it until you realize we all stay stupid things to the point that YOU LITERALLY CANNOT WORRY ABOUT I</small>) and their first point being about how they haven't been in a friend group for a long time</p>
+            <p>meanwhile, my shit eating grin knowing she has basically replaced the slot of two former friends i dumped over a petty war:</p>
+            <p>not to be the petty asshole that talks drama to death, but wintr and i pretty much started talking actively since about june 2025, and when my minecraft server shut down along with my friend group in early july, i invited them back into the minecraft thing (and also added them to the friend group she's talking about as an afterthought, which was <b>my</b> friend group with two members removed and winter added to it) without a second thought and practically since then, wintr has literally just become a core member. they don't use their own channels and they have a timezone that aligns with the british (which basically after 6 PM, the brits usually go to sleep and it's just me and the eastern americans)</p>
+            <p>she just joined because my friend group was going through a bit of a drout and i honestly did not want to have 3-4 members at most, so she came along as like the fourth core member (along with me, my sibling and another friend) and i'm actually really happy to know that LITERALLY everyone in the friend group is happy, including the one person who has to go to bed nearing the end of ours.</p>
+            <p>tl,dr; i'm god? i made my friend group a solid all-around group and everybody is happy, including the one person i was worried abt</p>
+            <p>ps the other person i was worried abt was also really happy so that's two people i was worried about completely satisfied</p>
+            <p>the yapfest god help me</p>
+            <section class="tags">
+                <a href="#yap">#yap</a>
+        </article>
+
+        <article class="post yap">
+            <div class="post-header">April Rivenend <handle>(@aprilriven)</handle> <time class="post-time" datetime="1755421080"></time></div>
+            <p>when i thought the initials in set it off's N.M.E. was meant to sound like "enemy" i was like a teenager</p>
+            <p>now i'm an adult and i just realized i think it stands for "no more excuses" lmao</p>
+            <section class="tags">
+                <a href="#yap">#yap</a><span>#music</span>
+        </article>
+
+        <article class="post yap">
+            <div class="post-header">April Rivenend <handle>(@aprilriven)</handle> <time class="post-time" datetime="1755356400"></time></div>
+            <p>timeless and classics zero might be the coolest gun mod on minecraft's mod scene to date</p>
+            <section class="tags">
+                <a href="#yap">#yap</a><span>#minecraft</span>
+            </section>
+        </article>
+
+        <article class="post rant">
+            <div class="post-header">April Rivenend <handle>(@aprilriven)</handle> <time class="post-time" datetime="1755275460"></time></div>
+            <p>THIS YEAR IS GOING TO BE FUCKING CRAZY.</p>
+            <details class="readmore">
+            <summary>view sensitive post (18+)</summary>
+            <p>there is genuinely no fucking going back because the friend group has actually been destroyed to such a mind shattering level. i have been stabbed both front and back. both of my irls ended up being total fucking snakes in their own ways, and any respect i had for the ONE person i gave credit during my meltdown has completely lost all of it. and they have the audacity to say i'm an enemy because they didn't like what i said. MY BROTHER IN CHRIST. YOU RAGEBAITED ME. WHY DO YOU THINK I LASHED OUT AT YOU????</p>
+            <p>and on top of this, finding out they're both in proximity uncomfortably close to two potential predators (who both have suggestive roblox outfits... the same kind porn addicts use) lhas lost me any respect i last had for either of them. i am beyond pissed off because among being stabbed fourteen times, finding out my friends go out of their way to support people who are potentially problematic, claiming that <i>i</i> guilt tripped <i>them</i>...</p>
+            <p>I AM SO FUCKING PISSED. you cannot say "you've taken all joy out of the things i like", then turn around and fuel one of gaming's biggest cesspools of kid grooming. like you cannot be that hypocritical.</p>
+            <p>sorry for the super angry and explicit post, i'll probably end up taking this down out of guilt but genuinely just so fucking pissed off at the people who claimed they wanted to give me help. and then those same people just take a nice, bleeding piss over everything i stand for</p>
+            </details>
+            <section class="tags">
+                <a href="#rant">#rant</a><span>#irl</span><span>#sensitive content</span><span>#genuinely what the fuck is wrong with you people</span><span>#roblox</span><span>#freeschlep</span><span>#your safety is not our problem</span><span>#drama</span><span>#you cannot be serious right now</span>
+            </section>
+        </article>
+
+        <article class="post rant">
+            <div class="post-header">April Rivenend <handle>(@aprilriven)</handle> <time class="post-time" datetime="1755188400"></time></div>
+            <p>my irl friendgroup is literally falling apart right now. my two irls are stuck on a circlejerk together while my sibling and i are with a brand new group with some new online friends and this friend group is blowing the fuck up in positivity. probably because i've kept all mentions of this drama to in private, outside of the friend group, with only maybe one or two people.</p>
+            <p>i'm fuelling the hate and drama at this point, but i'm egging this all on because i've been done a while. my friend group was pretty much on the tightrope between "things are going to fall apart" and "everything's smooth sailing" for a long while before it finally collapsed. and now i have an excuse to make a new friend group and avoid the old mistakes i made</p>
+            <p>it's kinda mean to be rude like this, but the thing is i've been done a good while and i've been really deeply hurt by all the stupid handling that could have been avoided. so my little side outlet to things falling apart is just to clown and fortnite dance over the whole situation. though it might be time to cut it all back like my past enemies and just completely remove on</p>
+            <p>but god damn this ice cream is good</p>
+            <section class="tags">
+                <a href="#rant">#rant</a><span>#irl</span>
+            </section>
+        </article>
+
+        <article class="post rant">
+            <div class="post-header">April Rivenend <handle>(@aprilriven)</handle> <time class="post-time" datetime="1755110220"></time></div>
+            <p><img src="./img/whyyy.jpg"></p>
+            <p>you know you really fucked up if even <i>american</i> police are also pressuring you to step down</p>
+            <section class="tags">
+                <a href="#rant">#rant</a><span>#roblox</span><span>#look at this dood</span>
+            </section>
+        </article>
+
+        <article class="post rant">
+            <div class="post-header">April Rivenend <handle>(@aprilriven)</handle> <time class="post-time" datetime="1755109920"></time></div>
+            <p>and also some extra points on the 1.21.1 lts thing -- you never did that when 1.19.1 came out. you didn't neglect 1.19.2 the same way. is it because we didn't have game drops then? was it because you're lazy? gaslight was applicable on that version? 1.19.4 had some internal changes from 1.19.1, are we counting that? no?</p>
+            <p>and please also support <a href="https://www.change.org/p/remove-david-baszucki">this petition</a>. put roblox under a ceo that actually gives a fuck about the kids, rather than this fucking clown!</p>
+            <section class="tags">
+                <a href="#rant">#rant</a><span>#minecraft</span><span>#gaming</span>
+            </section>
+        </article>
+
+        <article class="post yap">
+            <div class="post-header">April Rivenend <handle>(@aprilriven)</handle> <time class="post-time" datetime="1755054780"></time></div>
+            <p>wow, got more details -- yup, this downfall is deserved. they support somebody with predator outfits on roblox.</p>
+            <section class="tags">
+                <a href="#yap">#yap</a><span>#drama</span><span>#you cannot be serious right now</span>
+            </section>
+        </article>
+
+        <article class="post rant">
+            <div class="post-header">April Rivenend <handle>(@aprilriven)</handle> <time class="post-time" datetime="1755041400"></time></div>
+            <p>using 1.21.1 as a LTS version while actively ignoring anything past it is so dumb, because literally 99% of the SMP market is going to use a version past that. why would you gate casual people like me from using a mod that adds FUCKING LOADING SCREEN TIPS of all things. are we waiting for the rendering changes and game drops to cool down or do you genuinely just want to gatekeep updates from people</p>
+            <p>like is it funny to clamp to a specific versions? i get a mod like Create doing it, which literally clutches to stable versions and is not really meant to be a "compatible with all versions" mod, it's a content adder and stuff</p>
+            <p>but come on, you make a mod for loading screen tips...</p>
+            <section class="tags">
+                <a href="#rant">#rant</a><span>#minecraft</span><span>#gaming</span>
+            </section>
+        </article>
+
+        <article class="post rant updates">
+            <div class="post-header">April Rivenend <handle>(@aprilriven)</handle> <time class="post-time" datetime="1755017280"></time></div>
+            <p>I've really been struggling as of late with holding friendships, mostly because of things I do, I think. Ever since a long time friendgroup (since ~2022) split up and broke apart in early July, things have been pretty bad. I've been more prone to lashing out at people (I lashed out the day of the split up, hours before the formation of the "friend group without me", because one of my friends who i respected for situation handling randomly took a 180 and took my server from me), I've been possibly isolating, and I think I've been a little more down. I used to get angry and give off insane person vibes.</p>
+            <p>I don't anymore, but instead of being angrier (which has been MUCH better without my old friends, surprisingly), I'm just lonelier. Maybe I just don't know how to tolerate people and be respectful? I don't know. Things have been hard. I used to be way more social in 2019, but now it's just been so much harder. I can be myself, but then I have to doubt and be skeptical of every little thing. Every little weird thing needs to be watched under security cam and microscope.</p>
+            <p>Anyway, I put up a little post <a href="https://blog.spacehey.com/entry?id=1875379">here</a>, if you got a minute to relate or listen, I'd love to have a bit of attention on it, this is kind of my way to let out some held in feelings. This won't be a frequent thing. Just need to make a one time exception.</p>
+            <section class="tags">
+                <a href="#rant">#rant</a><a href="#updates">#updates</a><span>#vent</span><span>#blog</span><span>#irl</span>
+            </section>
+        </article>
+
+        <article class="post yap">
+            <div class="post-header">April Rivenend <handle>(@aprilriven)</handle> <time class="post-time" datetime="1755007200"></time></div>
+            <p>i like how on servers where server owners let the users decide if they want to be unreportable or not, you can turn off No Chat Reports' settings to hide all indicators, and then you just see a grey bar that identifies literally all No Chat Reports users. like it's literally so hilarious that it's an <i>almost</i> perfect way to dog whistle fellow NCR users...</p>
+            <p>assuming that clients haven't already integrated this</p>
+            <section class="tags">
+                <a href="#yap">#yap</a><span>#silly</span>
+            </section>
+        </article>
+
+        <article class="post yap">
+            <div class="post-header">April Rivenend <handle>(@aprilriven)</handle> <time class="post-time" datetime="1754950980"></time></div>
+            <p>MY HAIR HAS GOTTEN SO LONG THAT IVE LITERALLY NEVER SEEN MY FACE WITH HAIR THIS LONG BEFORE.</p>
+            <p>OH MY GOD?</p>
+            <section class="tags">
+                <a href="#yap">#yap</a><span>#silly</span>
+            </section>
+        </article>
+
+        <article class="post yap">
+            <div class="post-header">April Rivenend <handle>(@aprilriven)</handle> <time class="post-time" datetime="1754935980"></time></div>
+            <p>Found this new launcher called "Quantum Launcher", which is still work in progress. New build is going to have ely.by support, and in the future there'll be support for servers, OptiForge / OptiFabric (like Legacy Launcher!), Prism/MultiMC instance importing, etc. Can't wait to see where they go with it, especially considering it's Rust based and took a shot at Prism for not being as "feature complete" as Quantum is, I'm curious to see if they actually go on that promise.</p>
+            <p>Oh, and please add MMC Instance exporting in the next version :(</p>
+            <section class="tags">
+                <a href="#yap">#yap</a><span>#silly</span><span>#gaming</span><span>#minecraft</span>
+            </section>
+        </article>
+
+        <article class="post yap">
+            <div class="post-header">April Rivenend <handle>(@aprilriven)</handle> <time class="post-time" datetime="1754859540"></time></div>
+            <p>this might be a bad luck when a minecraft server inevitably has their staff go through my website and they see this and think i should be banned for tinkering a bit too far... oh well, i'm going to spoil my secrets anyway. just of note that <b>i don't automate this</b> because that's obviously against server rules, and i know the commands enough to type them manually anyway. plus actually typing makes the delays look less automated, so you can see the abnormal gaps and assume "yeah, a human's doing this"</p>
+            <p>for those running servers on anything paper adjacent (spigot, purpur, folia, everything that can take a Bukkit or Paper plugin), i notice nobody sets up their permissions the same! some people block /help, some don't block anything at all, some replace /help with something custom... and others have owners who think blocking every command under the sun except /msg is helpful.</p>
+            <p>one of my joyous things to do (as a guilty pleasure, though not to do anything malicious) is to run /help then /plugins to see if those commands are blocked. that's it, i just like seeing servers blocking /help then immediately forgetting that /plugins exist. plus, if you let me look at your plugins, i'll assume you have nothing to hide and even if i find something i don't like, you likely advertised that anyway and i just didn't read your ad enough!</p>
+            <p>and of course, servers that block both are mad suspicious, and i'm less likely to take you seriously. and also, as i speak i'm putting together a list of commands that are featured in typical shit p2w slop servers, so uhm... hi! you can't hide all the commands from me forever!</p>
+            <p>sorry for the silly post, haha... i just need to admit that i like to do this for shits and giggles. and also, it gives me peace of mind seeing in /plugins that there's just stuff i don't mind on it!</p>
+            <section class="tags">
+                <a href="#yap">#yap</a><span>#gaming</span><span>#modder life hacks</span><span>#minecraft</span>
+            </section>
+        </article>
+
+        <article class="post yap">
+            <div class="post-header">April Rivenend <handle>(@aprilriven)</handle> <time class="post-time" datetime="1754850720"></time></div>
+            <p>NAMI PLEASE FIX THIS THEME</p>
+            <p>THE BORDER COLOR ON THE ORIGINAL SIMPLIFIED CSS MAKES THE SIDEBAR <i>AND</i> BORDER COLOR THE SAME. I HAD TO MAKE A NEW VAR FOR <i>JUST</i> THE DASHED BORDER COLORS!!!</p>
+            <p>i probably sound like a lunatic</p>
+            <section class="tags">
+                <a href="#yap">#yap</a><span>#i found a bug!!!</span>
+            </section>
+        </article>
+
+        <article class="post rant">
+            <div class="post-header">April Rivenend <handle>(@aprilriven)</handle> <time class="post-time" datetime="1754839500"></time></div>
+            <p>not to be the paranoriac asshole that tries to go out of their way to bitch about what they don't like, but i think that david baszucki should be privately investigated solely for the damage he's done to his platform.</p>
+            <details class="readmore">
+            <summary>view potentially sensitive post</summary>
+            <p>his platform was originally founded for kids, and he turned around and turned it into an online dating space with serious problems related to sexual content. then he turns around and enables them by letting them make the bypassed emotes their heart desires.</p>
+            <p>i don't know about you, but i think something sounds mentally ill about that</p>
+            <p>god, i just fucking hate this so much because roblox is my platform and the only one where i feel i can put together characters and renders without feeling like it's too much, and now some stupid fuck in the chair is basically giving a bunch of predators the tools to wreck havoc on the platform. and now i'm out of a hobby again</p>
+            <p>so NOW i have to go out of my way to hunger strike again just to become desperate because everybody is on roblox but don't have an offplatform alternative. if zeekers can go off roblox and make lethal company, and Nelson Sexton and go off roblox (after making "Deadzone") and make unturned, then what is stopping everybody else..??</p>
+            <p>please roblox, get a new ceo that will actually care. get a ceo that does not ignore predators for fucks sake</p>
+            </details>
+            <section class="tags">
+                <a href="#rant">#rant</a><span>#sensitive content</span><span>#gaming</span><span>#these companies trying to corpo-ify my video games</span>
+            </section>
+        </article>
+
+        <article class="post yap">
+            <div class="post-header">April Rivenend <handle>(@aprilriven)</handle> <time class="post-time" datetime="1754837940"></time></div>
+            <p>modern whitelisted servers are so dumb to try and join because they treat everything like a job application. like i've literally started lying on my applications about why i want to join servers because it's so ridiculous.</p>
+            <p>"i want to join your server because i think i could be a great new member" no, it's because i want to play a GAME and hopefully somehow learn how making friends works. not because i'm a social butterfly with no flaws whatsoever or whatever i lied and said on my application. hell, i don't even REMEMBER my application.</p>
+            <p>sorry, just a little silly post</p>
+            <section class="tags">
+                <a href="#yap">#yap</a><span>#seriously why is this the new norm</span><span>#gaming</span>
+            </section>
+        </article>
+        
+        <section id="page-nav">
+            <p class="center"><a href="#">back to top</a></p>
+        </section>
+        
+    </main>
+
+    <footer>
+      © 2025 April "Rivers" Rivenend
+    </footer>      
+    </div>
+    <script type="text/javascript">
+      //NOTE - this is for the tooltip
+      const tooltip = document.getElementById("tooltip");
+      const images = document.querySelectorAll("[data-tooltip]");
+
+      images.forEach((image) => {
+        image.addEventListener("mouseenter", () => {
+          tooltip.textContent = image.getAttribute("data-tooltip");
+          tooltip.classList.add("visible");
+        });
+
+        image.addEventListener("mouseleave", () => {
+          tooltip.classList.remove("visible");
+        });
+
+        //NOTE - you can remove this part if you do not want it to move with the cursor but then you'll have to do some styling to get it right
+        image.addEventListener("mousemove", (e) => {
+          tooltip.style.left = e.clientX + 15 + "px";
+          tooltip.style.top = e.clientY + 15 + "px";
+        });
+      });
+    </script>
+    <script>      
+      //NOTE - converts the unix to a readable time stamp
+        document.querySelectorAll("time.post-time").forEach(el => {
+          let timestamp = parseInt(el.getAttribute("datetime"), 10);
+          let date = new Date(timestamp * 1000);
+
+      //NOTE - change these variables if you want a different time format 
+        el.textContent = date.toLocaleString('en-US', {
+          year: 'numeric',
+          month: 'numeric',
+          day: '2-digit',
+          hour: 'numeric',
+          minute: '2-digit',
+          hour12: true
+        });
+        
+      //NOTE - this is so that the unix time becomes machine readable, you can remove this line if you want but then the html gods wont like you
+        el.setAttribute("datetime", date.toISOString());
+      });
+</script>
+  </body>
+</html>
