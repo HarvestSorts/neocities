@@ -7,6 +7,8 @@
     <meta name="description" content="A place to post some tweets, instead of on Twitter. More uses soon.">
     <link rel="icon" href="https://file.garden/Z00UfPFOQVsOSq0m/pic1">
     <link href="./simplified-style.css" rel="stylesheet" type="text/css" media="all">
+    <script type="type/javascript" src="../tooltips.js" async></script>
+    <script type="type/javascript" src="./unixtoreadable.js" async></script>
   </head>
   <body>
     <div id="tooltip" class="tooltip"></div> <!-- it needs to be loaded above everything else, or chaos ensue. -->
@@ -368,47 +370,5 @@
       © 2025 April "Rivers" Rivenend
     </footer>      
     </div>
-    <script type="text/javascript">
-      //NOTE - this is for the tooltip
-      const tooltip = document.getElementById("tooltip");
-      const images = document.querySelectorAll("[data-tooltip]");
-
-      images.forEach((image) => {
-        image.addEventListener("mouseenter", () => {
-          tooltip.textContent = image.getAttribute("data-tooltip");
-          tooltip.classList.add("visible");
-        });
-
-        image.addEventListener("mouseleave", () => {
-          tooltip.classList.remove("visible");
-        });
-
-        //NOTE - you can remove this part if you do not want it to move with the cursor but then you'll have to do some styling to get it right
-        image.addEventListener("mousemove", (e) => {
-          tooltip.style.left = e.clientX + 15 + "px";
-          tooltip.style.top = e.clientY + 15 + "px";
-        });
-      });
-    </script>
-    <script>      
-      //NOTE - converts the unix to a readable time stamp
-        document.querySelectorAll("time.post-time").forEach(el => {
-          let timestamp = parseInt(el.getAttribute("datetime"), 10);
-          let date = new Date(timestamp * 1000);
-
-      //NOTE - change these variables if you want a different time format 
-        el.textContent = date.toLocaleString('en-US', {
-          year: 'numeric',
-          month: 'numeric',
-          day: '2-digit',
-          hour: 'numeric',
-          minute: '2-digit',
-          hour12: true
-        });
-        
-      //NOTE - this is so that the unix time becomes machine readable, you can remove this line if you want but then the html gods wont like you
-        el.setAttribute("datetime", date.toISOString());
-      });
-</script>
   </body>
 </html>
