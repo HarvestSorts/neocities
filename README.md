@@ -4,6 +4,7 @@ Currently just a twitter drop-in replacement.
 # Credits
 Sainnhe - [Everforst](https://github.com/sainnhe/everforest) theme (used for theme palette, slightly adapted upon)  
 [NomNomNami](https://nomnomnami.com) - "Pastille" [site template](https://nomnomnami.com/templates/)  
+[wintrmoon](https://wintr.neocities.org/) - Tooltip on hover script, UNIX time implementation  
 Buttons created by various friends
 
 # License
