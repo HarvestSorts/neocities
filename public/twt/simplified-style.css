@@ -54,17 +54,17 @@ handle { color: #8cad95; } /* color handles diff from the display */
 */
 @font-face {
   font-family: Nunito;
-  src: url('/fonts/Nunito-Black.ttf');
+  src: url('./fonts/Nunito-Black.ttf');
   font-weight: bold;
 }
 @font-face {
     font-family: Atkinson Hyperlegible;
-    src: url('/fonts/AtkinsonHyperlegible-Regular.ttf');
+    src: url('./fonts/AtkinsonHyperlegible-Regular.ttf');
 }
 
 @font-face {
     font-family: Atkinson Hyperlegible;
-    src: url('/fonts/AtkinsonHyperlegible-Bold.ttf');
+    src: url('./fonts/AtkinsonHyperlegible-Bold.ttf');
     font-weight: bold;
 }
 
