@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preload" href="/blog/assets/styles/normalize.css" as="style">
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="A technology focused blog about hate, love, the ugly and the catch in the fine print. All from personal experience.">
+    <title>Picking Sides - Minecraft's Modding Problem</title>
+
+    <!--cache busting-->
+    
+
+    <!--opengraph cards-->
+    <meta property="og:title" content="The Diary of April Rivenend">
+    <meta property="og:description" content="Picking Sides - Minecraft's Modding Problem">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://aprilhvs.neocities.org/posts/2025/minecraft-modding-racism-problem/">
+    <meta property="og:image" content="https://aprilhvs.neocities.org/social.png">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="The Diary of April Rivenend">
+    <meta name="twitter:description" content="Picking Sides - Minecraft's Modding Problem">
+    <meta name="twitter:image" content="https://aprilhvs.neocities.org/social.png">
+
+    <!--styles-->
+    <link rel="stylesheet" href="/blog/assets/styles/normalize.css" type="text/css">
+    <link rel="stylesheet" href="/blog/assets/styles/style.css" type="text/css">
+    <link rel="stylesheet" href="/blog/assets/styles/themes/ocean.css" type="text/css">
+    <link rel="icon" sizes="16x16 24x24 32x32 64x64" href="/blog/favicon.ico">
+  </head>
+  <body>
+    <nav>
+        <ol>
+            <li><a href="/blog/">Home</a></li>
+            
+                <li><a href="/blog/info/about/">About</a></li>
+            
+                <li><a href="/blog/info/all_posts/">All Posts</a></li>
+            
+        </ol>
+        <ol>
+    <li>
+        <a href="/blog/tags/updates/">Changelog</a>
+    </li>
+    <li>
+        <a href="https://aprilhvs.neocities.org">Back to the Fall Harvest</a>
+    </li>
+</ol>
+    </nav>
+    <main>
+        <header>
+            <h1>Picking Sides - Minecraft's Modding Problem</h1>
+            
+            
+            <time>07/27/2025</time>
+            
+        </header>
+        <p>It might seem very self explanatory if I ever just opened a post with &quot;Minecraft is a game&quot;, so instead, let's say Minecraft is a very popular game with a lot of modding potential, but also a lot of modding problems.</p>
+<p>That's a good opener, right? Is that how you open a successful blog?</p>
+<p>Oh, it's total luck based?</p>
+<h1>Another case of love and hate</h1>
+<p>As much as I dog on Minecraft's modding hostility, it's really a love circle to get to play a game that's had so many cool mods. While that <em>doesn't</em> include a lot of the tech and magic mods people like, such as Create's complicated systems (which I can't wrap my head around, I already barely wrap my head around the base game), all the tech heavy modpacks and other total tech overhauls, but I always appreciate all the work people do on the Optimization front to make it barely work, and such.</p>
+<p>I just can't believe how bad it gets sometimes. People picking fights with specific versions, different modloaders having different mods, people being selective of when they port mods and what loaders they develop for... etc, etc. This was likely a problem Forge created by not innovating much, yeah, but then Fabric became what Forge was. A lack of innovation. NeoForge came along to innovate, but right now, Fabric is still worth it over NF because it still has more mods.</p>
+<p>And the cycle keeps getting fed because developers prefer Fabric over anything. I can understand prioritizing a modloader for personal reasons, such as literally being unable to keep up with Mojang's shit ON TOP of other modloaders (which by the way, is a very common thing!), but preferring it because you just have a stigma against everything else sucks.</p>
+<p>Because instead of empowering new things that could become the norm and even fix what was wrong with what we already had, you instead made me rely on a connector and cross compatibility layer that barely even works. It was so bad, I ended up just moving a modpack for a group of friends from NeoForge, allll the way back to Fabric. Because it runs like ass, people pick too many sides, and my own personal experiences with both have made me land on Fabric. Because there's more optimizations and stuff tailored to what <em>I</em> personally want.</p>
+<p>Oh yeah, if you say &quot;yeah, well I already struggled modding modern Minecraft, so I mod on 1.xx.xx so I can have so and so&quot;, congratulations, <a href="https://harveysorts.bearblog.dev/posts/2025/optifine-psa/">that's</a> <a href="https://harveysorts.bearblog.dev/posts/2025/specialk-and-minecraft/">one more</a> <a href="https://harveysorts.bearblog.dev/posts/2025/minecraft-buddies-rant-v2/">feeding</a> <a href="https://harveysorts.bearblog.dev/posts/2024/my-browser-history/">the</a> <a href="https://harveysorts.bearblog.dev/posts/2024/the-server-hunting-problem/">slippery slope</a>.<br>
+Oh, and <a href="https://www.instructables.com/Modding-Minecraft-the-Easy-Way-for-windows/">you're</a> <a href="https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/1275355-1-7-3-aether-collaboration-mod-v1-02-new-mobs">wrong</a>.</p>
+<h1>Nobody gets it</h1>
+<p>Let's put aside version wars for a minute. Let's <em>try</em> to listen to the people, as somebody who just wants to play vanilla with friends.</p>
+<p>Okay, sure, 1.12 is popular. I've known many people who would point at 1.12 and say &quot;1.12 was the peak modding and doesn't have these problems&quot;. Okay, sure, let's rely on OptiFine instead of Sodium and see if I either max out my CPU or get lower than Modern (which already should be comfortably low compared to everything else!!!).</p>
+<p>Okay, well it's very unlikely it would perform worse than Modern, so let's claim it's on par, which is &quot;perfect&quot; for our case! Cool, the game still runs, that's all we need.</p>
+<p>Okay, now make it connect to 1.16+. Do not use ViaVersion. Do not use ViaBackwards. Hard assume that I am physically incapable of doing anything on the server, and make the solution entirely client-sided.<br>
+Let me put you in a clearer challenge. You likely thought I was kidding and said &quot;Well, you don't&quot;.</p>
+<p>Make it connect to all the server versions that modern SMPs use, which are all servers I mainly play on, where many people will also be present with me. That means all of 1.20, all of 1.21, maybe even 1.16-1.19 too. Throw in 1.12 for safe measure too, just for the 1.12 purists.</p>
+<p>Oh yeah, <a href="https://modrinth.com/mod/sodium">go</a> <a href="https://modrinth.com/mod/starlight">ahead</a> <a href="https://modrinth.com/mod/chatpatches">and</a> <a href="https://modrinth.com/mod/recursiveresources">also</a> <a href="https://modrinth.com/mod/chatnotify">port</a> <a href="https://modrinth.com/mod/jade">every</a> <a href="https://modrinth.com/mod/notes">mod</a> <a href="https://modrinth.com/mod/packed-packs">I'm</a> <a href="https://modrinth.com/mod/quick-menu">accustomed</a> <a href="https://modrinth.com/mod/skinshuffle">to</a> <a href="https://modrinth.com/mod/viafabricplus">playing</a> <a href="https://modrinth.com/mod/vtdownloader">around</a> <a href="https://modrinth.com/mod/presence-footsteps">with</a>. Prepare for every edge case while you're at it. Go right ahead, I will be here waiting when you figure out how to do so.</p>
+<p>Go ahead and also figure out every crash. If it crashes when I touch it, do not send me anything at all.</p>
+<h1>Racism everywhere</h1>
+<p>That probably sounded <em>very</em> cruel. And you're right! That was very demanding, but the problem is that's just how I play. I play mostly Vanilla and play with a lot of assistive resources. A lot of random seeming mods.</p>
+<h2>Version racism</h2>
+<p>And nobody seems to get that down. In a place where the alternative is to starve, I'd rather deal with Modern Minecraft's bullshit than cut a few things, because those &quot;few things&quot; has become everything I look forward to when modding.</p>
+<p>And that was a fight between downgrading to 1.21.1 and starving. I chose to starve myself of a few 1.21.1 exclusives. Namely, Cull Less Leaves, Tips (by Darkhax), and a couple of other &quot;livable&quot; mods I might last a few months without. x.7 is missing a bit more, including Roughly Enough Items... But it is what it is.</p>
+<p>God, I just hate modding. Everybody has a version preference and it's plain racism. 1.21.5 made horrible rendering changes that people skipped because of, and even <em>performance mod authors</em> are making 1.21.5 exclusives to combat the fact that so many people hate working on 1.21.5 as it is right now. God...</p>
+<p>Minecraft's version space is a nightmare. There are mods that just pick sides because it's a modder's favorite version. There's 1.21.1 of course for many people, there's also been 1.20.1, 1.18.2, 1.16.5... God, we're already tangling ourselves into an ugly little mess.</p>
+<p>There's just so much selectism for specific versions, I don't like it. We're all picking sides and-</p>
+<h2>Loader racism</h2>
+<p>Ah, fucking knew that was coming.</p>
+<p>Yeah, it's not a version exclusive thing. That should have become VERY obvious if you know what Fabric is. I'm not even going to touch how LuxForge and NeoForge are two separate things</p>
+<p>So, many beginner modders only develop on Fabric. Almost everybody only develops on Fabric today, and that has basically turned the space into a capitalism ring. Fabric rakes in all the mods on latest versions while Forge users either have to starve or switch over. Hell, sometimes you even have to consider going to Forge or starving because some of your fun stuff is on Forge. Then you have to do it again, because, surprise, Origins is unstable and <em>abandoned</em> on Forge!</p>
+<p>Now, does that mean either of them are better than the other? No lol, Fabric gets beef from veterans who can't let go of Forge, Forge itself is dead since 1.21.2 because everybody's porting to Neoforge, hell Neoforge is unoptimized at times...<br>
+I could go on. Not to mention, some people will prioritize Forge on other versions. Wonder why Legacy Fabric is unheard of and obscure? That's why.</p>
+<h3>The racism is also on the older versions</h3>
+<p>I think what some people fail to realize is that this isn't like, a modern thing. I actually notice this is a <em>retro</em> thing too.</p>
+<p>Like for example, before 1.16. Sodium 1.15 is pretty much fictional, and everything before it is just nothing. 1.12 doesn't have a port either, so you have to use the inferior choice to play at all. Oh, and the million other optimizations that are hostile to each other, that too. A system that was <strong>already</strong> basically perfected in modern versions, where the same few optimizations basically work together in harmony and don't actually <strong>conflict</strong> with each other.</p>
+<p>Sorry, is that too hostile? I'd like you to also fix 1.8, for those who play on PvP servers. OptiFine is far too little choice!!! And don't forget my 1.12 ports!</p>
+<h2>My Point -- 1.12 isn't a &quot;kill all&quot; bullet</h2>
+<p>That was a <em>lot</em> of yap for something I could summarize in short.</p>
+<p>Pretty much, I find people overpraise these versions. It doesn't actually help. 1.12 might solve the problem of mods not being present on newer versions, and you could in theory give up joining any modern SMP to use it, but then you have new problems; crashing galore! And a bunch of other problems that aren't coming to mind right now.</p>
+<p>But that's not the juice of this rant. I just wanted to get the fun one out of the way.</p>
+<h1>The slow update cycle</h1>
+<p>Thank Mojang for all of your problems. Game drops!</p>
+<p>Starting since roughly 1.20 (and debatably 1.21, to an extent), there has been a huge shift in how mods are handled. Updates are slow now, some mods not having been updated in months, sometimes spanning over at least a year. Their last supported version? Usually a 1.2X.1 version of some kind. ALWAYS.</p>
+<p>Most of this is mostly the fault of Mojang's &quot;Game drops&quot; update, which practically forced modders to work at a break-neck pace. Now, obviously that'll create problems. It's a sure fire way to get demotivated on a project!</p>
+<p>But then that also leaves me to have to deal with being anxious about when the modder can keep up and update while I'm on this latest version, before a new version comes out and fucks everything up, and by the time I've updated...</p>
+<p>THE NEW UPDATE CAME OUT. AND ALL THE FUCKING SERVERS UPDATED TO IT. EVERY ONE!</p>
+<p>I absolutely <strong>despise</strong> working with Minecraft modding because of this one, simple phenomena. A new version comes out and EVERYBODY moves to it, even if all of the fun mods like Presence Footsteps and such haven't caught up. So while everybody's having fun on 1.21.12 or whatever the fuck they're playing, I have to stay back on 1.21.1, <strong>still</strong> waiting for the updates to come to at least 1.21.10!</p>
+<p>Like, this is fucking madness! Do people NOT get tired of working with this? Everything's so hard because your work can be obsoleted in a tap. Just one flick, you have to update and nothing is updated yet. Please, just either make a replacement that works on the current version, or please just fucking update your shit. Please...</p>
+<p>PLEASE!</p>
+
+        
+    </main>
+    
+    
+    
+
+    <nav id="pagination">
+        
+        <section class="pagectrl pageprev">
+            <p>Previous:</p>
+            <a href="/blog/posts/2025/spacehey-dead-take/"><p>My take on SpaceHey being "dead" (as somebody who is active on both SpaceHey and modern socials)</p><time>07/26/2025</time></a>
+        </section>
+        
+
+        
+        <section class="pagectrl pagenext">
+            <p>Next:</p>
+            <a href="/blog/posts/2025/optifine-psa/"><p>OptiFine is not your savior - a retrospective & PSA on how optimizing Minecraft has changed</p><time>07/27/2025</time></a>
+        </section>
+        
+    </nav>
+    
+
+    
+    
+    
+
+    <footer>
+        <p>
+            The Diary of April Rivenend is written by 
+            
+                <a href="https://aprilhvs.neocities.org">April Rivenend</a>
+                
+        </p>
+        
+        <aside>
+            <p>
+                <time class="lastupdate" datetime="Aug 22, 2025">Last update: Aug 22, 2025</time>
+                <a href="/blog/feed.xml">RSS</a>
+            </p>
+            <a href="#">back to top</a>
+        </aside>
+    </footer>
+</body>
+</html>

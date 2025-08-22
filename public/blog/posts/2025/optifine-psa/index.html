@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preload" href="/blog/assets/styles/normalize.css" as="style">
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="A technology focused blog about hate, love, the ugly and the catch in the fine print. All from personal experience.">
+    <title>OptiFine is not your savior - a retrospective & PSA on how optimizing Minecraft has changed</title>
+
+    <!--cache busting-->
+    
+
+    <!--opengraph cards-->
+    <meta property="og:title" content="The Diary of April Rivenend">
+    <meta property="og:description" content="OptiFine is not your savior - a retrospective & PSA on how optimizing Minecraft has changed">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://aprilhvs.neocities.org/posts/2025/optifine-psa/">
+    <meta property="og:image" content="https://aprilhvs.neocities.org/social.png">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="The Diary of April Rivenend">
+    <meta name="twitter:description" content="OptiFine is not your savior - a retrospective & PSA on how optimizing Minecraft has changed">
+    <meta name="twitter:image" content="https://aprilhvs.neocities.org/social.png">
+
+    <!--styles-->
+    <link rel="stylesheet" href="/blog/assets/styles/normalize.css" type="text/css">
+    <link rel="stylesheet" href="/blog/assets/styles/style.css" type="text/css">
+    <link rel="stylesheet" href="/blog/assets/styles/themes/ocean.css" type="text/css">
+    <link rel="icon" sizes="16x16 24x24 32x32 64x64" href="/blog/favicon.ico">
+  </head>
+  <body>
+    <nav>
+        <ol>
+            <li><a href="/blog/">Home</a></li>
+            
+                <li><a href="/blog/info/about/">About</a></li>
+            
+                <li><a href="/blog/info/all_posts/">All Posts</a></li>
+            
+        </ol>
+        <ol>
+    <li>
+        <a href="/blog/tags/updates/">Changelog</a>
+    </li>
+    <li>
+        <a href="https://aprilhvs.neocities.org">Back to the Fall Harvest</a>
+    </li>
+</ol>
+    </nav>
+    <main>
+        <header>
+            <h1>OptiFine is not your savior - a retrospective & PSA on how optimizing Minecraft has changed</h1>
+            
+            
+            <time>07/27/2025</time>
+            
+        </header>
+        <p>In progress since <code>7/26/25 3:44 PM</code>. Original idea from <code>7/18/25</code>.</p>
+<h1>Introducing...</h1>
+<p>Minecraft is one of those games that I will always have a love-hate relationship with. The experience of modding either ends in love and two hours of love and power as I play with crazy cool improvements<br>
+...or I'm spending the next hour removing mods one by one and reading game logs to figure out what went wrong. Only for it to be something trivial, stupid, or well, I give up on the spot.</p>
+<p>Not everybody gets to share that sentiment. People prefer Client Launchers that just open the game, apply a few optimizations and the fun is over. While <a href="https://rentry.co/mclients">I have some issues with that</a>, it's not hurting anybody. People have many reasons to not care about playing, including time and effort, but some just have super rigs with good temps and can afford to undercut.<br>
+Of course, that's a terrible way of looking at it, but people are people.</p>
+<p>I can also get people who just can't wrap their heads around the optimization space. And of course, <a href="https://github.com/TheUsefulLists/UsefulMods">several</a> <a href="https://github.com/DJSng106/toolkit">lists</a> exist to help with that! Well, as best they can.</p>
+<p>Generally, there's just so much I'd love to talk about when it comes to modding. There's so many good posts, a lot of rants that would be fun to share my experiences with, as well as just generally reminding people that modern Minecraft has a lot of new performance advancements!</p>
+<p>And then... There's that thing. In the title.<br>
+I fear it.</p>
+<h1>OptiFine.</h1>
+<p>...</p>
+<p>Either I just pissed off a good few people, became the fourteen hundred thousandth person to rant about it, or just said what everybody knows.</p>
+<h2>A quick &quot;hello&quot;!</h2>
+<p>That's nonsense, of course. I never even told you about the man of the hour! Let me introduce you to this man before I yap your ear off about his warcrimes.</p>
+<p>OptiFine is a Minecraft tweak created by sp614x around the time of Minecraft's Beta 1.2 days, originally created as two mods. It started in 2011 as a silly, simple project about Minecraft and optimizating the game, before the main developer would decline giving their code to Mojang roughly around 2013,</p>
+<h3>OptiMine</h3>
+<p>The first was OptiMine, which seemed to have started around Beta 1.2 (released Janurary 2011) and was created by a different person named Scaevolus. It was about rewriting the text engine to support Unicode (although fonts not included), Fast Render, and other general optimizations.</p>
+<p>It's last update was during Beta 1.3_01.</p>
+<h3>OptiFog</h3>
+<p>The second was OptiFog, a predecessor to OptiFine released for Beta 1.4 (March 2011, the day before April Fools!). It was mostly about removing Fog, but also had some basic optimizations such as &quot;FPS Boost&quot;, Occlusion Culling, and chunkloading optimizations in it's first ever version. Later versions would add MCPatcher, OptiMine &amp; Modloader support, and some other familiar options that would make it to Minecraft later.</p>
+<p>It's last version was during Beta 1.7.2.</p>
+<h2>OptiFine: Merging the two Projects</h2>
+<p>Okay, you probably got <em>really</em> bored listening to all that yap. Long story short, the two projects, as well as another mod project merged into OptiFine for beta 1.7.3, and the rest is history.</p>
+<p>That's fine, that seemed to be the end of the post, right? Most people probably walked out on the history yap, thinking this is just a post full of slop, yeah? This is just a lame talk that's clickbait about how OptiFine is popular?</p>
+<p>Well, you didn't even let me to get to that part!</p>
+<h1>Welcome to 2025.</h1>
+<p>Minecraft is a game that, while not seemingly so, has many issues with Performance. Maybe one day, I'll make a post about Sodium. Maybe a post about modloaders, or even about 1.21.5... Yikes.</p>
+<p>But in the meantime, we need to talk about OptiFine. Specifically, modern version of OptiFine. Yeah, mind fucking, I know.</p>
+<h2>I get the argument on legacy versions</h2>
+<p>Let me just first off say that this isn't about &quot;OptiFine&quot; being the devil and that you need to quit it NOW for this alternative version. The truth is, there's not always an alternative.</p>
+<p>On versions like 1.8, 1.0 and even the beta builds, you just have to suck it up and use OptiFine. 1.7 has Angelica and anything after 1.14 has Sodium, but for everything in between, you're just plain hosed. OptiFine is really your only choice right now. And last I checked, Legacy Fabric doesn't have anything solid to replace it. Or a Sinytra Connector clone.</p>
+<p>So for a version like a beta, or maybe a very early release version, I get it. The mod support for early versions is very dry now that 2011 is a decade past and we've moved on to newer versions. Yet, I just wish there was a way to backport the OptiFine competitor out of spite... Embeddium's done it, Rubidium's done it, Angelica's done it, but I still don't get how 1.8 doesn't have an Angelica-like mod yet. Why does 1.7 need the special treatment, because they have GregTech? 1.8 needs it for competition! It's a very popular version for PvP and</p>
+<p>Sorry, just very passionate about Minecraft. The modding scene is a <em>little</em> bizzare, and since 1.20 ages, modders have struggled to keep up. Some mods are approaching a year since their last update :(</p>
+<p>it's just... we could use so many better choices. OptiFine did it's job in what, 2014? Back when the optimizations were still fresh and actually relevant, compared to today, where they're just super old and only do the <strong>bare minimum</strong> for performance now. It's just...</p>
+<h1>The version racism is stupid.</h1>
+<p>Yes, titlecard. Thank you.</p>
+<p>Modding's racism is so dumb. First of all, OptiFine <em>itself</em> has done so, skipping 1.21.5 themselves, so they're definitely guilty of it. 1.21.6+ is available but under pre-release status[^1], etc. So before you put this on modders, don't forget that your savior has also sinned.</p>
+<p>Second of all, the modding space has <em>ALWAYS</em> been hostile. 1.7 being the only pre-1.15 version to get any kind of Sodium resembling overhaul is already ridiculous, let alone 1.8-1.14 having to just &quot;make do&quot; by themselves. I know that 1.9 is very unpopular, and 1.8 is mostly just Hypixel players that already use Lunar for performance, but come the fuck on, people!</p>
+<p>This was also <em>always</em> going to happen, considering the modding space is also full of a lot of conflicting opinions. You have mod authors that haven't updated in almost a year and seemingly have gone missing, dead, or possibly demotivated to update mods you really want, picking the right version, deciding between Forge and NeoForge for 1.20+, if Forge has all the ports you want...</p>
+<p>Like holy shit, was it not enough OptiFine was replaced since 1.15? Did we need to also over complicate everything? This is not a modding issue <em>in its entirety</em>, but it's still an issue some authors fuel. God...</p>
+<h2>Things have changed</h2>
+<p>But some things are meant to change. That's why we have Sodium to replace it. That's why every modder warns you to avoid OptiFine like the plague on every version past 1.14. That's why modders gravitate towards Fabric. That's why I always tell my friends to use Fabric over Forge. Because times have changed, and all the good things are currently on Fabric. Either the people porting to Forge have specific versions in mind, or are only going for the low hanging fruit: the most popular choice.</p>
+<p>It's just all very hostile. So hostile, in fact, that Lunar Client has chosen steal[^2] Sodium for themselves! The CaffeineMC team has made a mod so good at outdoing OptiFine, that clients are starting to use it over OptiFine. Talk about funny?</p>
+<p>Sorry, that was my victory lap. I just find it funny they've already jumped ship. After all, <a href="https://web.archive.org/web/20230421115716/https://rentry.co/silvermcsetup">I've already complained about them being inefficient</a>, I guess they have to one up that by taking what was a modder exclusive.</p>
+<h1>There's better options</h1>
+<p>Okay, listen. I know, I'm dogging on OptiFine <em>really</em> hard. You're probably either really sick of the yap, or you just want me to hurry up and recommend an alternative. I got you.</p>
+<p>First of all, get <a href="https://modrinth.com/app">Modrinth's launcher</a> for Minecraft. If you have never modded before, Prism Launcher looks too bloated and you're too tired to learn anything else, Modrinth is easy, updates your mods to the latest version for you, and does what it's meant to do.</p>
+<p>Now, the mods. The launcher won't do the magic on it's own. That's tiresome, I know, but we have lists for that! Try picking up <a href="https://github.com/DJSng106/toolkit/">Toolkit</a> or <a href="https://github.com/TheUsefulLists/UsefulMods">TheUsefulLists</a>. Find the version you want to play on, browse the list, and install whatever mods show up for your version. Profit, and you're de-fined! If you miss shaders, just install Iris and be on your way.</p>
+<p>Connected textures? Continuity. There's also some mods for many features OptiFine had! <a href="https://optifine.alternatives.lambdaurora.dev/">See here</a> for more options!</p>
+<p>Of course, this kind of thing might not encourage <em>everybody</em>, but I'm just saying that the option is out there.</p>
+<p>Isn't a faster rendering engine better than an all in one modpack that was last performing at its peak in 2012?</p>
+<p>This was a bit of a hard yap... Maybe I'll follow this up another time.</p>
+<hr>
+<p>[^1]: Last checked on July 27th 2025. By the time this blog is finished, it's probably already out.</p>
+<p>[^2]: No really, they did. <a href="https://www.lunarclient.com/news/patch-notes-21/">https://www.lunarclient.com/news/patch-notes-21</a>​</p>
+
+        
+    </main>
+    
+    
+    
+
+    <nav id="pagination">
+        
+        <section class="pagectrl pageprev">
+            <p>Previous:</p>
+            <a href="/blog/posts/2025/minecraft-modding-racism-problem/"><p>Picking Sides - Minecraft's Modding Problem</p><time>07/27/2025</time></a>
+        </section>
+        
+
+        
+        <section class="pagectrl pagenext">
+            <p>Next:</p>
+            <a href="/blog/posts/2025/sodium-retrospective/"><p>Sodium was the best thing to happen to Minecraft since The Aether</p><time>08/08/2025</time></a>
+        </section>
+        
+    </nav>
+    
+
+    
+    
+    
+
+    <footer>
+        <p>
+            The Diary of April Rivenend is written by 
+            
+                <a href="https://aprilhvs.neocities.org">April Rivenend</a>
+                
+        </p>
+        
+        <aside>
+            <p>
+                <time class="lastupdate" datetime="Aug 22, 2025">Last update: Aug 22, 2025</time>
+                <a href="/blog/feed.xml">RSS</a>
+            </p>
+            <a href="#">back to top</a>
+        </aside>
+    </footer>
+</body>
+</html>
