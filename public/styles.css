@@ -16,8 +16,8 @@ html {
 
 /* use fixed sizes for the pfp */
 #pfp {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
 }
 
 /* style tooltips */
@@ -39,3 +39,10 @@ html {
 
 /* style links */
 a { color: azure;}
+a:visited { color: burlywood;}
+
+/* i want cool formatting */
+
+hr {
+    border: dotted 2px darkgreen;
+}
